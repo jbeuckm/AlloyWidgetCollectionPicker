@@ -1,0 +1,14 @@
+<Alloy>
+  <Collection src="StoreLocation"/>
+  <View>
+  	
+  	<Label>widget</Label>
+
+    <Picker>
+      <PickerColumn dataCollection="StoreLocation">
+        <PickerRow title="{store_name}"/>
+      </PickerColumn>
+    </Picker>
+    
+  </View>
+</Alloy>
